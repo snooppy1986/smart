@@ -24,34 +24,28 @@ ID
 	Фильм всегда в себе должен содержать жанры к которым относится и ссылку на изображение
 
 Внимание в контроллерах должно быть минимальное количество логики. Все входящие по реквесту данные должны быть отвалидированы, особенно файлы.
-<ul class="list-group ">
-        <li class="list-group-item">
-            <p>Жанры</p>
-            <p>Панель управления</p>
-            <a href="http://0.0.0.0/dashboard/genres">Список всех жанров</a><br>
-            <a href="http://0.0.0.0/dashboard/genre/create">Создать жанр</a>
 
-            <p>API запросы</p>
-            <p>Жанры ( выводит список всех жанров)</p>
-            <p>http://0.0.0.0/api/genres</p>
-            <a href="http://0.0.0.0/api/genres">Все  жанры</a><br>
-            <p>Жанры/id (выводит список всех фильмов в данном жанре с разбивкой на страницы)(id=5)</p>
-            <p>http://0.0.0.0/api/genre/show/5</p>
-            <a href="http://0.0.0.0/api/genre/show/5">Фильмы жанра</a>
-        </li>
-        <li class="list-group-item">
-            <p>Фильмы</p>
-            <p>Панель управления</p>
-            <a href="http://0.0.0.0/dashboard/films">Список всех фильмов</a><br>
-            <a href="http://0.0.0.0/dashboard/film/create">Создать фильм</a>
 
-            <p>API запросы</p>
-            <p>Получить все фильмы с разбивкой на страницы</p>
-            <p>http://0.0.0.0/api/films</p>
-            <a href="http://0.0.0.0/api/films">Все фильмы</a><br>
-            <p>Выводит определенный фильм по ID (id=5)</p>
-            <p>http://0.0.0.0/api/film/show/5</p>
-            <a href="http://0.0.0.0/api/film/show/5">Фильм по ID</a>
-        </li>
-    </ul>
+<p>Жанры</p>
+<p>Панель управления</p>
+<a href="http://smart-head-test.pp.ua/dashboard/genres">Список всех жанров</a><br>
+<a href="http://smart-head-test.pp.ua/dashboard/genre/create">Создать жанр</a><br>
+<p>API запросы</p>
+<p>Жанры ( выводит список всех жанров)</p>
+<p>http://smart-head-test.pp.ua/api/genres</p>
+
+<p>Жанры/id (выводит список всех фильмов в данном жанре с разбивкой на страницы)(id=5)</p>
+<p>http://smart-head-test.pp.ua/api/genre/show/5</p>
+
+<p>Фильмы</p>
+<p>Панель управления</p>
+<a href="http://smart-head-test.pp.ua/dashboard/films">Список всех фильмов</a><br>
+<a href="http://smart-head-test.pp.ua/dashboard/film/create">Создать фильм</a>
+<p>API запросы</p>
+<p>Получить все фильмы с разбивкой на страницы</p>
+<p>http://smart-head-test.pp.ua/api/films</p>
+<a href="http://smart-head-test.pp.ua/api/films">Все фильмы</a><br>
+<p>Выводит определенный фильм по ID (id=5)</p>
+<p>http://smart-head-test.pp.ua/api/film/show/5</p>
+<a href="http://smart-head-test.pp.ua/api/film/show/5">Фильм по ID</a>
 
